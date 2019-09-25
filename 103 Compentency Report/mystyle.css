@@ -1,0 +1,224 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 62.5%;
+
+}
+
+h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+
+}
+
+.site-header{
+    background-image: url(img/Unicorn\ Night.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    height: 30rem;
+
+}
+
+
+
+.logo{
+    width: 10%;
+
+}
+
+.content-header{
+    display:  flex;
+    justify-content: space-between;
+
+}
+
+nav{
+    
+    padding: 1.5rem;
+    border-radius: .5rem;
+    opacity: .2;
+
+
+}
+
+nav a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: aqua;
+    padding: 1rem;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.main-header{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2rem;
+
+}
+
+.titles{
+    text-align: center;
+    padding: 5rem;
+}
+
+
+h2{
+    font-size: 1.3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-types{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.img-types{
+    width: 100%;
+    padding: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+}
+
+.text-types{
+    font-size: 1.2rem;
+
+}
+
+.banner{
+    height: 20rem;
+    background-image: url(img/Rainbow\ banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    color: white;
+    font-size: 3rem;
+    padding-top: 5rem;
+}
+
+.container{
+    widows: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.myth{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1.2rem;
+
+
+}
+
+.square{
+    flex-basis: calc(30%  - 1rem);
+
+}
+
+.square-img:hover{
+    transform: scale(1.1);
+}
+
+
+h4{
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.2rem;
+}
+
+h5{
+    text-transform: none;
+    font-size: 1rem;
+
+}
+
+h6{
+    background: aquamarine;
+    color: black;
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 5rem;
+
+}
+
+h6:hover{
+    transform: scale(1.1);
+}
+
+.square-title{
+    text-align: center;
+}
+
+.button-myth{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer{
+    color: aquamarine;
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+.footer-nav{
+    font-size: 1.5rem;
+    background-image: url(img/Rainbow\ banner.jpg);
+    margin: 0px;
+    
+
+}
+
+.footer-nav a{
+    font-size: 1rem;
+    color: rebeccapurple;
+
+}
+
+.quiz-title{
+    text-align: center;
+
+}
+
+form{
+    margin: 30px;
+    font-size: 1rem;
+}
+
+a:hover{
+    text-decoration: none;
+    color: plum;
+}
+
+a:visited{
+    color: rgb(230, 43, 230);
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.table-header{
+    text-align: center;
+    margin: auto;
+    text-emphasis: bold;
+}
